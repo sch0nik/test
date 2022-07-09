@@ -11,7 +11,7 @@ Explanation: 121 reads as 121 from left to right and from right to left.
 
 def main(x):
     s = str(x)
-    l = int(len(s)/2)
+    l = len(s)//2
     return s[:l] == s[-1: -l - 1: -1]
 
 
